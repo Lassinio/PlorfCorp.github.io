@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plorf Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-links">
+            <div id="headerbox">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target ="_blank" id="headeritems">⚙</a>
+                <a href="profile.html"><img src="pfp.jpg" alt="pfp" height="40px" width="40px"></a>
+            </div>
+        </div>
+    </div>
+    <div id="mySidebar" class="sidebar">
+        <a href="#home">PlorfCorp<sup>tm</sup> Home Page</a>
+        <a href="#services">Your PlorfZone<sup>tm</sup></a>
+        <a href="#about">About PlorfCorp<sup>tm</sup></a>
+        <a href="#footer">Contact PlorfCorp<sup>tm</sup></a>
+    </div>
+    <button id ="button" class="open-btn" onclick="Sidebar()">☰ Open Sidebar</button>
+
+    <div id="center" class="center">
+        <h1>Personal Information:</h1>
+        <button class="fin-edit-btn" onclick="saveEdit()">Save</button>
+        <table>
+            <tr>
+                <td><p>Username:</p></td>
+                <td><p>First Name:</p></td>
+                <td><p>Last Name:</p></td>
+                <td><p>Date Of Birth:</p></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="edit_ign">test</td>
+                <td><input type="text" id="edit_fn">test</td>
+                <td><input type="text" id="edit_ln">test</td>
+                <td><span>30/06/2006</span></td>
+            </tr>
+            <tr>
+                <td><p>Phone Number:</p></td>
+                <td><p>E-Mail:</p></td>
+                <td><p>Instagram:</p></td>
+                <td><p>Messenger Pigeon Coordinates:</p></td>
+            </tr>
+            <tr>
+                <td><span>(+216) 20 131 850</span></td>
+                <td><span>yassinebouajinak@gmail.com</span></td>
+                <td><span><a href="https://www.instagram.com/yassine.bouajina" target="_blank">@yassine.bouajina</a></span></td>
+                <td><span>11.3493° N, 142.1996° E</span></td>
+            </tr>
+        </table>
+        <h3>Description:</h3>
+        <p1>Sometimes when my mother isn't home, I like to go into the backyard, bury myself, and pretend I am a carrot</p1>
+        
+        <h1>Plorf<sup>tm</sup> Information:</h1>
+        <table>
+            <tr>
+                <td><p>Collaborators:</p></td>
+                <td><p>Plorfbucks<sup>tm</sup>:</p></td>
+                <td><p>Rank:</p></td>
+                <td><p>Active Since:</p></td>
+            </tr>
+            <tr>
+                <td><span>56</span></td>
+                <td><span>1,897,270</span></td>
+                <td><span>Dandelion</span></td>
+                <td><span>18/09/2024</span></td>
+            </tr>
+        </table>
+    </div>
+    <footer id="footer" class="footer">
+        <p>E-mail: Customer-Support@plorf.com</p>
+        <p>Number: (+957) 298 109 290 091</p>
+        <p>Address: 5th Floor, Emmanuel Anquetil Building, Port-Louis</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
